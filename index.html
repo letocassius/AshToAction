@@ -49,7 +49,7 @@
         
         header h1 {
             font-size: 4rem; /* Match pageintro article .heading */
-            font-weight: 700;
+            font-weight: 800;
             margin: 0 0 50px 0; /* Match pageintro article .heading margin-bottom */
             line-height: normal;
         }
@@ -123,22 +123,24 @@
         .wrapper section > h2 {
             color: #3c354e;
             font-family: "Roboto", sans-serif;
-            font-size: 32px;
+            font-size: 42px;
             font-weight: 700;
             margin: 0 auto 50px;
             position: relative;
             text-transform: uppercase;
             text-align: center;
+            letter-spacing: 1px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
         }
         
         .wrapper section > h2::before {
             background: #01d262 none repeat scroll 0 0;
             bottom: -13px;
             content: "";
-            height: 2px;
+            height: 3px;
             left: 48%;
             position: absolute;
-            width: 75px;
+            width: 90px;
             margin: 0 auto;
         }
         
@@ -362,8 +364,8 @@
 <body>
     <header id="pageintro">
         <div class="header-content">
-            <h1>AshToAction</h1>
-            <p><strong></strong>A platform dedicated to present knowledge and inspiring hope</strong></p>
+            <h1 style="font-size: 5.5rem; font-weight: 800; text-shadow: 2px 2px 8px rgba(0,0,0,0.3); letter-spacing: 2px;">AshToAction</h1>
+            <p style="font-size: 28px; font-family: 'Playfair Display', serif; font-style: italic; margin-top: 15px;"><strong>A platform dedicated to present knowledge and inspiring hope</strong></p>
             <div class="header-footer">
                 <a href="#introduction" class="btn" style="display: inline-block; background-color: #01d262; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: 500;">Learn More</a>
             </div>
@@ -372,18 +374,18 @@
 
     <nav>
         <ul>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#prevention">Prevention</a></li>
-            <li><a href="#safety">Safety Tips</a></li>
-            <li><a href="#stories">Inspire Hope</a></li>
-            <li><a href="#resources">Resources</a></li>
+            <li><a href="#introduction" style="font-size: 18px; font-weight: 600;">Introduction</a></li>
+            <li><a href="#prevention" style="font-size: 18px; font-weight: 600;">Prevention</a></li>
+            <li><a href="#safety" style="font-size: 18px; font-weight: 600;">Safety Tips</a></li>
+            <li><a href="#stories" style="font-size: 18px; font-weight: 600;">Inspire Hope</a></li>
+            <li><a href="#resources" style="font-size: 18px; font-weight: 600;">Resources</a></li>
         </ul>
     </nav>
 
     <main class="wrapper">
         <section id="introduction">
             <h2>Introduction to Wildfires</h2>
-            <p style="text-align: center; font-size: 24px; font-weight: 700; font-family: 'Georgia', serif; margin-bottom: 30px; color: #333;">
+            <p style="text-align: center; font-size: 26px; font-weight: 700; font-family: 'Georgia', serif; margin-bottom: 30px; color: #333;">
                 Why do we care:<br>
                 Wildfire is life threatening, environmental disastrous, and economically costly.
             </p>
@@ -394,7 +396,7 @@
                 <div style="position: absolute; bottom: 30px; left: 30px; width: 150px; height: 150px; background: radial-gradient(circle, rgba(1,210,98,0.05) 0%, rgba(255,255,255,0) 70%); border-radius: 50%; z-index: 0;"></div>
                 
                 <div style="background: linear-gradient(135deg, rgba(1, 210, 98, 0.12), rgba(1, 210, 98, 0.04)); padding: 35px; border-radius: 20px 0 20px 0; margin-bottom: 40px; box-shadow: 0 8px 25px rgba(0,0,0,0.07); border-left: 3px solid #01d262;">
-                    <h3 style="color: #01d262; font-size: 28px; border-bottom: 2px dotted #01d262; display: inline-block; padding-bottom: 5px; margin-bottom: 25px; letter-spacing: 1px;">Dangerous Impacts of Wildfires 🔥</h3>
+                    <h3 style="color: #01d262; font-size: 32px; border-bottom: 2px dotted #01d262; display: inline-block; padding-bottom: 5px; margin-bottom: 25px; letter-spacing: 1px;">Dangerous Impacts of Wildfires 🔥</h3>
                     
                     <!-- Image container with clear styling -->
                     <div style="margin-bottom: 30px; text-align: center;">
@@ -406,14 +408,14 @@
                     
                     <!-- Text content in a separate container -->
                     <div style="padding: 0 15px;">
-                        <p style="font-size: 18px; line-height: 1.6; position: relative; padding-left: 15px; border-left: 2px solid rgba(1, 210, 98, 0.3);"><strong>Direct Threat:</strong> It is very important to note that wildfire can spread very fast. According to Western Fire Chiefs Association, wildfire can travel with a speed of 14.27 miles per hour, and the speed may vary greatly due to different factors ("How Fast Do Wildfires Spread?"). This includes humidity, location, inflammable material density, and wind velocity. Therefore, it would be difficult for people to escape from wildfire without precaution and preparation, especially for children, elder people, and people with disability.</p>
+                        <p style="font-size: 20px; line-height: 1.6; position: relative; padding-left: 15px;"><strong>Direct Threat:</strong> It is very important to note that wildfire can spread very fast. According to Western Fire Chiefs Association, wildfire can travel with a speed of 14.27 miles per hour, and the speed may vary greatly due to different factors ("How Fast Do Wildfires Spread?"). This includes humidity, location, inflammable material density, and wind velocity. Therefore, it would be difficult for people to escape from wildfire without precaution and preparation, especially for children, elder people, and people with disability.</p>
                     
-                        <p style="font-size: 18px; line-height: 1.6; position: relative; padding-left: 15px; border-left: 2px solid rgba(1, 210, 98, 0.3); margin-top: 20px;"><strong>Harmful Smoke (Toxins):</strong> Besides direct threat from the fire spread, the wildfire smoke may severely harm people's health both in short terms and long terms. The burned materials particularly produces gaseous pollutants and particle pollutants. For example, carbon monoxide is a typical gaseous pollutant that is poisonous. California Air Resources Broad emphasizes that: "Carbon monoxide is harmful because it binds to hemoglobin in the blood, reducing the ability of blood to carry oxygen" ("Carbon Monoxide & Health"). Moreover, wildfire also produces a massive amount of fine particles (PM2.5) which threats people's health in the long run. According to the United States Environmental Protection Agency, PM2.5 is one of the primary concern of public health because the particles are able to reach human lungs and get into people's bloodstream ("Why Wildfire Smoke is a Health Concern"), thus, raising the chance of cardiovascular disease.</p>
+                        <p style="font-size: 20px; line-height: 1.6; position: relative; padding-left: 15px; margin-top: 20px;"><strong>Harmful Smoke (Toxins):</strong> Besides direct threat from the fire spread, the wildfire smoke may severely harm people's health both in short terms and long terms. The burned materials particularly produces gaseous pollutants and particle pollutants. For example, carbon monoxide is a typical gaseous pollutant that is poisonous. California Air Resources Broad emphasizes that: "Carbon monoxide is harmful because it binds to hemoglobin in the blood, reducing the ability of blood to carry oxygen" ("Carbon Monoxide & Health"). Moreover, wildfire also produces a massive amount of fine particles (PM2.5) which threats people's health in the long run. According to the United States Environmental Protection Agency, PM2.5 is one of the primary concern of public health because the particles are able to reach human lungs and get into people's bloodstream ("Why Wildfire Smoke is a Health Concern"), thus, raising the chance of cardiovascular disease.</p>
                     </div>
                 </div>
                 
                 <div style="background: linear-gradient(135deg, rgba(1, 210, 98, 0.04), rgba(1, 210, 98, 0.12)); padding: 35px; border-radius: 0 20px 0 20px; margin-bottom: 40px; box-shadow: 0 8px 25px rgba(0,0,0,0.07); border-right: 3px solid #01d262;">
-                    <h3 style="color: #01d262; font-size: 28px; border-bottom: 2px dotted #01d262; display: inline-block; padding-bottom: 5px; margin-bottom: 25px; letter-spacing: 1px;">Environmental and Climate Impacts 🌍</h3>
+                    <h3 style="color: #01d262; font-size: 32px; border-bottom: 2px dotted #01d262; display: inline-block; padding-bottom: 5px; margin-bottom: 25px; letter-spacing: 1px;">Environmental and Climate Impacts 🌍</h3>
                     
                     <!-- Image container with clear styling -->
                     <div style="margin-bottom: 30px; text-align: center;">
@@ -425,16 +427,16 @@
                     
                     <!-- Text content in a separate container -->
                     <div style="padding: 0 15px;">
-                        <p style="font-size: 18px; line-height: 1.6; position: relative; padding-right: 15px; border-right: 2px solid rgba(1, 210, 98, 0.3);"><strong>Lost Forest:</strong> Vast forests, where thousands of species thrive, are vital to Earth's ecosystem. Since woods and dried plants are ideal for ignition, wildfires spread across forests at alarming speeds. Wildfire-caused deforestation occurs much faster than other human activities like logging, destroying large forests within days. Consequently, hundreds of species lose their habitats and face extinction threats.</p>
+                        <p style="font-size: 20px; line-height: 1.6; position: relative; padding-right: 15px;"><strong>Lost Forest:</strong> Vast forests, where thousands of species thrive, are vital to Earth's ecosystem. Since woods and dried plants are ideal for ignition, wildfires spread across forests at alarming speeds. Wildfire-caused deforestation occurs much faster than other human activities like logging, destroying large forests within days. Consequently, hundreds of species lose their habitats and face extinction threats.</p>
                         
-                        <p style="font-size: 18px; line-height: 1.6; position: relative; padding-right: 15px; border-right: 2px solid rgba(1, 210, 98, 0.3); margin-top: 20px;"><strong>Burned Land:</strong> Countries worldwide suffer from massive territory loss to wildfires annually. According to "Wildfires" by Veronika Samborska and Hannah Ritchie on Our World in Data, the United States lost 4.14 million hectares from wildfires in 2024—roughly the size of Switzerland (Samborska and Ritchie).</p>
+                        <p style="font-size: 20px; line-height: 1.6; position: relative; padding-right: 15px; margin-top: 20px;"><strong>Burned Land:</strong> Countries worldwide suffer from massive territory loss to wildfires annually. According to "Wildfires" by Veronika Samborska and Hannah Ritchie on Our World in Data, the United States lost 4.14 million hectares from wildfires in 2024—roughly the size of Switzerland (Samborska and Ritchie).</p>
                         
-                        <p style="font-size: 18px; line-height: 1.6; position: relative; padding-right: 15px; border-right: 2px solid rgba(1, 210, 98, 0.3); margin-top: 20px;"><strong>Carbon Dioxide Emissions:</strong> Wildfires release enormous amounts of carbon dioxide, a greenhouse gas with tremendous impact on climate change. According to "Annual CO2 emissions from wildfires" by Our World in Data, wildfires in 2024 released 6.17 billion tons of CO2 into the atmosphere, with U.S. wildfires contributing 159.62 million tons ("Annual CO2 emissions from wildfires"). These emissions represent major factors in overall annual global carbon output.</p>
+                        <p style="font-size: 20px; line-height: 1.6; position: relative; padding-right: 15px; margin-top: 20px;"><strong>Carbon Dioxide Emissions:</strong> Wildfires release enormous amounts of carbon dioxide, a greenhouse gas with tremendous impact on climate change. According to "Annual CO2 emissions from wildfires" by Our World in Data, wildfires in 2024 released 6.17 billion tons of CO2 into the atmosphere, with U.S. wildfires contributing 159.62 million tons ("Annual CO2 emissions from wildfires"). These emissions represent major factors in overall annual global carbon output.</p>
                     </div>
                 </div>
                 
                 <div style="background: linear-gradient(135deg, rgba(1, 210, 98, 0.12), rgba(1, 210, 98, 0.04)); padding: 35px; border-radius: 20px 0 20px 0; margin-bottom: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.07); border-left: 3px solid #01d262;">
-                    <h3 style="color: #01d262; font-size: 28px; border-bottom: 2px dotted #01d262; display: inline-block; padding-bottom: 5px; margin-bottom: 25px; letter-spacing: 1px;">Economic and Financial Impacts 💰</h3>
+                    <h3 style="color: #01d262; font-size: 32px; border-bottom: 2px dotted #01d262; display: inline-block; padding-bottom: 5px; margin-bottom: 25px; letter-spacing: 1px;">Economic and Financial Impacts 💰</h3>
                     
                     <!-- Image container with clear styling -->
                     <div style="margin-bottom: 30px; text-align: center;">
@@ -446,9 +448,9 @@
                     
                     <!-- Text content in a separate container -->
                     <div style="padding: 0 15px;">
-                        <p style="font-size: 18px; line-height: 1.6; position: relative; padding-left: 15px; border-left: 2px solid rgba(1, 210, 98, 0.3);"><strong>Direct Loss of Assets:</strong> Wildfires cause direct asset losses to individuals and society as a whole by burning homes, cars, facilities, and infrastructure. According to Karissa Waddick's article, "How many homes have burned in the Los Angeles wildfires so far", the wildfire earlier this year in North Los Angeles destroyed more than 12,000 homes, facilities, and commercial properties (Waddick). Snejana Farberov in "Property Losses From L.A. Wildfires Could Exceed $30 Billion—From Condos to Megamansions" demonstrated that the sum of losses exceeded $30 billion (Farberov).</p>
+                        <p style="font-size: 20px; line-height: 1.6; position: relative; padding-left: 15px;"><strong>Direct Loss of Assets:</strong> Wildfires cause direct asset losses to individuals and society as a whole by burning homes, cars, facilities, and infrastructure. According to Karissa Waddick's article, "How many homes have burned in the Los Angeles wildfires so far", the wildfire earlier this year in North Los Angeles destroyed more than 12,000 homes, facilities, and commercial properties (Waddick). Snejana Farberov in "Property Losses From L.A. Wildfires Could Exceed $30 Billion—From Condos to Megamansions" demonstrated that the sum of losses exceeded $30 billion (Farberov).</p>
                         
-                        <p style="font-size: 18px; line-height: 1.6; position: relative; padding-left: 15px; border-left: 2px solid rgba(1, 210, 98, 0.3); margin-top: 20px;"><strong>Insurance Crisis:</strong> The tremendous property losses due to the Los Angeles wildfire in January 2025 have worsened California's insurance issues, especially for property insurance. Many insurance companies simply don't have the ability and funds to pay for all losses simultaneously. Additionally, since wildfires happen frequently in Southern California, insurance companies either refuse to provide property insurance or significantly raise premiums.</p>
+                        <p style="font-size: 20px; line-height: 1.6; position: relative; padding-left: 15px; margin-top: 20px;"><strong>Insurance Crisis:</strong> The tremendous property losses due to the Los Angeles wildfire in January 2025 have worsened California's insurance issues, especially for property insurance. Many insurance companies simply don't have the ability and funds to pay for all losses simultaneously. Additionally, since wildfires happen frequently in Southern California, insurance companies either refuse to provide property insurance or significantly raise premiums.</p>
                     </div>
                 </div>
             </div>
@@ -468,109 +470,109 @@
 
         <section id="prevention">
             <h2>Prevention</h2>
-            <p style="text-align: center; font-size: 20px; font-weight: 700; font-family: 'Georgia', serif; margin-bottom: 30px; color: #333;">
+            <p style="text-align: center; font-size: 26px; font-weight: 700; font-family: 'Georgia', serif; margin-bottom: 30px; color: #333;">
                 From California Case Study to Global Perspectives
             </p>
             
             <div style="max-width: 1200px; margin: 0 auto; padding: 24px;">
                 <div style="background: linear-gradient(to right, rgba(1, 210, 98, 0.1), rgba(1, 210, 98, 0.05)); padding: 30px; border-radius: 15px; margin-bottom: 40px; box-shadow: 0 5px 20px rgba(0,0,0,0.05);">
-                    <h3 style="color: #01d262; font-size: 28px; border-bottom: 2px solid #01d262; display: inline-block; padding-bottom: 5px; margin-bottom: 20px;">Causes of Wildfires</h3>
+                    <h3 style="color: #01d262; font-size: 34px; border-bottom: 2px solid #01d262; display: inline-block; padding-bottom: 5px; margin-bottom: 20px;">Causes of Wildfires</h3>
                     
                     <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; margin-bottom: 20px;">
                         <div style="flex: 1; min-width: 300px;">
                         <div style="flex: 2; min-width: 300px;">
-                            <p style="font-size: 18px; line-height: 1.6;">Wildfires have become one of the most urgent environmental challenges globally, and the recurring crises in California offer valuable lessons based on recent research.</p>
+                            <p style="font-size: 20px; line-height: 1.7;">Wildfires have become one of the most urgent environmental challenges globally, and the recurring crises in California offer valuable lessons based on recent research.</p>
                         </div>
                     </div>
                     
-                    <p style="font-size: 18px; line-height: 1.6;">Wildfires have become one of the most urgent environmental challenges globally, and the recurring disasters in California are not accidental - they are the result of a dangerous mixture of weather patterns, human activities, and drastically changing ecosystems. Let me introduce to you how these elements interact based on recent research.</p>
+                    <p style="font-size: 20px; line-height: 1.7;">Wildfires have become one of the most urgent environmental challenges globally, and the recurring disasters in California are not accidental - they are the result of a dangerous mixture of weather patterns, human activities, and drastically changing ecosystems. Let me introduce to you how these elements interact based on recent research.</p>
                     
-                    <p style="font-size: 18px; line-height: 1.6;">Starting with the Sierra Nevada region, there's been a dramatic shift in where fires occur. Back in 2015, Dr. Schwartz made a striking discovery: since the 1980s, fire-prone zones had climbed uphill by about 65%. This is directly related to the reduction of snow cover (down nearly 30%) and early snowmelt. The p-value here is less than 0.01, indicating there's less than 1% chance this pattern is random. Low altitude trees like yellow pine are now invading areas that were once too cold for them, forming "fuel highways"—a fuel highway is like a continuous dry vegetation trail that rolls out the red carpet for wildfires.</p>
+                    <p style="font-size: 20px; line-height: 1.7;">Starting with the Sierra Nevada region, there's been a dramatic shift in where fires occur. Back in 2015, Dr. Schwartz made a striking discovery: since the 1980s, fire-prone zones had climbed uphill by about 65%. This is directly related to the reduction of snow cover (down nearly 30%) and early snowmelt. The p-value here is less than 0.01, indicating there's less than 1% chance this pattern is random. Low altitude trees like yellow pine are now invading areas that were once too cold for them, forming "fuel highways"—a fuel highway is like a continuous dry vegetation trail that rolls out the red carpet for wildfires.</p>
                     
-                    <p style="font-size: 18px; line-height: 1.6;">Gutierrez and Randerson's (2021) research provides us with hard numbers for the stark reality. Their analysis of satellite data from 2015 to 2020 revealed some concerning facts: for every one degree Celsius increase in summer temperatures, fire outbreaks increase by 18-22%. The R-squared value here is 0.76, indicating strong correlation. The following is what happens during extreme drought: During the Santa Ana wind event Californians are well aware of these dry gusts, plants can lose more than one-third of their moisture in just three days, (once saw a fire expert demonstrate this - he took a dry Manzanita branch and broke it in half. When the vegetation humidity drops from 90% to under 60%, plants become perfect fire starters).</p>
+                    <p style="font-size: 20px; line-height: 1.7;">Gutierrez and Randerson's (2021) research provides us with hard numbers for the stark reality. Their analysis of satellite data from 2015 to 2020 revealed some concerning facts: for every one degree Celsius increase in summer temperatures, fire outbreaks increase by 18-22%. The R-squared value here is 0.76, indicating strong correlation. The following is what happens during extreme drought: During the Santa Ana wind event Californians are well aware of these dry gusts, plants can lose more than one-third of their moisture in just three days, (once saw a fire expert demonstrate this - he took a dry Manzanita branch and broke it in half. When the vegetation humidity drops from 90% to under 60%, plants become perfect fire starters).</p>
                     
-                    <p style="font-size: 18px; line-height: 1.6;">But high temperatures alone cannot explain California's fire nightmare. The wind is like the blowtorch of nature. Brandon's weather analysis for 2023 shows that nearly 80% of catastrophic fires since 2015 have involved either Diablo or Santa Ana winds. These are not gentle sea winds - we're talking about sustained speeds of over 55 kilometers per hour. Terrifying is how far these winds energize fire: burning embers >3.2 kilometers ahead of the main fire. It's like lighting a match at Fisherman's Wharf in San Francisco and then discovering a fire at Oracle Park across town. Compared to fires without strong winds, this means a 40% increase in spread speed.</p>
+                    <p style="font-size: 20px; line-height: 1.7;">But high temperatures alone cannot explain California's fire nightmare. The wind is like the blowtorch of nature. Brandon's weather analysis for 2023 shows that nearly 80% of catastrophic fires since 2015 have involved either Diablo or Santa Ana winds. These are not gentle sea winds - we're talking about sustained speeds of over 55 kilometers per hour. Terrifying is how far these winds energize fire: burning embers >3.2 kilometers ahead of the main fire. It's like lighting a match at Fisherman's Wharf in San Francisco and then discovering a fire at Oracle Park across town. Compared to fires without strong winds, this means a 40% increase in spread speed.</p>
                     
-                    <p style="font-size: 18px; line-height: 1.6;">The science reveals three key factors: constantly changing ecosystems turning mountains into powder kegs, rising temperatures baking out landscapes, and fierce winds acting as boosters for fires. But these elements do not exist in isolation. The dried vegetation caused by climate change will become even more fire-prone when the winds arrive. It's more like the domino effect of disaster - if one piece is knocked down, the entire system will collapse.</p>
+                    <p style="font-size: 20px; line-height: 1.7;">The science reveals three key factors: constantly changing ecosystems turning mountains into powder kegs, rising temperatures baking out landscapes, and fierce winds acting as boosters for fires. But these elements do not exist in isolation. The dried vegetation caused by climate change will become even more fire-prone when the winds arrive. It's more like the domino effect of disaster - if one piece is knocked down, the entire system will collapse.</p>
                     
-                    <p style="font-size: 18px; line-height: 1.6;">Recent events have proven this. The Creek Fire in the Sierra Nevada Mountains in 2020 burned over 370,000 acres of land, and these three factors worked together in a devastating way. Record temperatures in August caused the forest to dry up, while the winds in September spread flames and wildfires to high-altitude areas previously considered safe. Firefighters now describe such blazes as "climate fires" - a new type of disaster whose behavior is unpredictable compared to historical patterns.</p>
+                    <p style="font-size: 20px; line-height: 1.7;">Recent events have proven this. The Creek Fire in the Sierra Nevada Mountains in 2020 burned over 370,000 acres of land, and these three factors worked together in a devastating way. Record temperatures in August caused the forest to dry up, while the winds in September spread flames and wildfires to high-altitude areas previously considered safe. Firefighters now describe such blazes as "climate fires" - a new type of disaster whose behavior is unpredictable compared to historical patterns.</p>
                     
-                    <p style="font-size: 18px; line-height: 1.6;">What is truly concerning is how this learning from California wildfires can be applied globally. The bushfires in Australia in 2019-2020 showed a similar pattern - forests under drought stress, extreme heat waves, and abnormal wind behavior. Even Mediterranean countries are now facing an extended fire season that matches California's timetable. Climate change not only warms the Earth, but it is also rewriting the rulebook on how fires start and spread.</p>
+                    <p style="font-size: 20px; line-height: 1.7;">What is truly concerning is how this learning from California wildfires can be applied globally. The bushfires in Australia in 2019-2020 showed a similar pattern - forests under drought stress, extreme heat waves, and abnormal wind behavior. Even Mediterranean countries are now facing an extended fire season that matches California's timetable. Climate change not only warms the Earth, but it is also rewriting the rulebook on how fires start and spread.</p>
                 </div>
                 
                 <div style="background: linear-gradient(to right, rgba(1, 210, 98, 0.05), rgba(1, 210, 98, 0.1)); padding: 30px; border-radius: 15px; margin-bottom: 40px; box-shadow: 0 5px 20px rgba(0,0,0,0.05);">
-                    <h3 style="color: #01d262; font-size: 28px; border-bottom: 2px solid #01d262; display: inline-block; padding-bottom: 5px; margin-bottom: 20px;">Prevention Strategies 🛡️</h3>
+                    <h3 style="color: #01d262; font-size: 34px; border-bottom: 2px solid #01d262; display: inline-block; padding-bottom: 5px; margin-bottom: 20px;">Prevention Strategies 🛡️</h3>
                     
                     <!-- Enhanced image display for Prevention Strategies -->
                     <div style="text-align: center; margin-bottom: 30px;">
                         <div style="display: inline-block; max-width: 80%; position: relative; overflow: hidden;">
                             <img src="img/prevention1.pic.jpg" alt="Public awareness campaigns" style="width: 100%; height: auto; display: block; border-radius: 15px; box-shadow: 0 12px 30px rgba(0,0,0,0.2); border: 5px solid white;">
                         </div>
-                        <p style="font-size: 16px; color: #555; margin-top: 12px; font-style: italic;">Fire prevention strategies require community awareness and scientific approaches</p>
+                        <p style="font-size: 17px; color: #555; margin-top: 12px; font-style: italic;">Fire prevention strategies require community awareness and scientific approaches</p>
                     </div>
                     
                     <div style="margin-bottom: 30px;">
-                        <p><strong>2.1 Reimagining Fire Prevention: Three Science-Backed Strategies</strong><br>
+                        <p style="font-size: 20px; line-height: 1.7;"><strong style="font-size: 22px;">2.1 Reimagining Fire Prevention: Three Science-Backed Strategies</strong><br>
                         When it comes to wildfire prevention, we are not powerless—modern research provides us with powerful tools if we know how to utilize them. Let's break down three game changing methods that can truly save neighborhoods.</p>
                     </div>
                     
-                    <p><strong>2.2 Climate-Adaptive Forestry: Working With Nature</strong><br>
+                    <p style="font-size: 20px; line-height: 1.7;"><strong style="font-size: 22px;">2.2 Climate-Adaptive Forestry: Working With Nature</strong><br>
                     Imagine that a firefighter wants to extinguish a wildfire. This is what Schwartz's 2015 fuel outage strategy envisioned. By strategically removing 40-60% of trees in key areas—which can be seen as pruning forests—we can reduce the spread of canopy fires by more than half. But there is a clever part here: it is not clear. Forestry crews strategically separate the healthiest trees like chess pieces, forming a natural fire barrier.</p>
                     
-                    <p>In practice, this means that staff may reduce fire-prone species such as white fir while protecting old pine trees. Plus controlling burns every 5-7 years - like the ones displayed in Sequoia National Park last fall - we can achieve a win-win situation. Low intensity controlled burns simulate the natural fire cycle, reducing the stock of dead wood while fertilizing the soil. It's like teaching forests fire prevention without losing their ecological mojo.</p>
+                    <p style="font-size: 20px; line-height: 1.7;">In practice, this means that staff may reduce fire-prone species such as white fir while protecting old pine trees. Plus controlling burns every 5-7 years - like the ones displayed in Sequoia National Park last fall - we can achieve a win-win situation. Low intensity controlled burns simulate the natural fire cycle, reducing the stock of dead wood while fertilizing the soil. It's like teaching forests fire prevention without losing their ecological mojo.</p>
                     
-                    <p><strong>2.3 Early Warning Systems: Predicting Fire Before It Starts</strong><br>
+                    <p style="font-size: 20px; line-height: 1.7;"><strong style="font-size: 22px;">2.3 Early Warning Systems: Predicting Fire Before It Starts</strong><br>
                     Do you remember how the weather forecast predicts rainfall now? We are entering the era of fire prevention. Gutierrez and Randerson's breakthrough in 2021 allowed us to detect fire problem 72 hours in advance, zooming in to 1 square kilometer blocks - which is precise enough.</p>
                     
-                    <p>Here's how it works: satellites track "thermal stress points" where temperatures cross the critical threshold (meaning: 35°C+<20% humidity). Last summer, the system marked a high-risk area near Bear Lake 48 hours before lightning strikes. Firefighters have pre-deployed resources and controlled the potential disaster area within 12 acres. The accuracy of pilot testing is 89%, which is like having a fire crystal ball—although meteorologists admit that they still cannot predict human-caused fires from careless campers.</p>
+                    <p style="font-size: 20px; line-height: 1.7;">Here's how it works: satellites track "thermal stress points" where temperatures cross the critical threshold (meaning: 35°C+<20% humidity). Last summer, the system marked a high-risk area near Bear Lake 48 hours before lightning strikes. Firefighters have pre-deployed resources and controlled the potential disaster area within 12 acres. The accuracy of pilot testing is 89%, which is like having a fire crystal ball—although meteorologists admit that they still cannot predict human-caused fires from careless campers.</p>
                     
-                    <p><strong>2.4 Wind-Smart Communities: Building Like We Mean It</strong><br>
+                    <p style="font-size: 20px; line-height: 1.7;"><strong style="font-size: 22px;">2.4 Wind-Smart Communities: Building Like We Mean It</strong><br>
                     California's infamous Diablo winds turn houses into matchboxes—unless we design smarter. Brandon's 2023 wind maps reveal invisible "fire highways" where gusts regularly exceed 25 km/h. In these zones, enforcing 30m defensible spaces isn't just regulation—it's survival math. Bleiman's 2023 data shows this buffer slashes home ignition odds from 43% to 12%.But what does 30m actually look like? Imagine:</p>
-                    <ul style="margin-left: 20px;">
-                        <li>Removing flammable juniper bushes near windows</li>
-                        <li>Replacing wood decks with stone patios</li>
-                        <li>Installing spark-proof attic vents (those tiny mesh screens save entire roofs)</li>
+                    <ul style="margin-left: 25px; font-size: 20px; line-height: 1.7;">
+                        <li style="margin-bottom: 10px;">Removing flammable juniper bushes near windows</li>
+                        <li style="margin-bottom: 10px;">Replacing wood decks with stone patios</li>
+                        <li style="margin-bottom: 10px;">Installing spark-proof attic vents (those tiny mesh screens save entire roofs)</li>
                     </ul>
                     
-                    <p>Santa Barbara's recent reconstruction after the 2018 fire demonstrates this approach. Houses rebuilt with refractory materials and appropriate spacing survived intact in the 2023 fire, while non-compliant houses burned like sparks.</p>
+                    <p style="font-size: 20px; line-height: 1.7;">Santa Barbara's recent reconstruction after the 2018 fire demonstrates this approach. Houses rebuilt with refractory materials and appropriate spacing survived intact in the 2023 fire, while non-compliant houses burned like sparks.</p>
                     
-                    <p><strong>2.5 The Bigger Picture</strong><br>
+                    <p style="font-size: 20px; line-height: 1.7;"><strong style="font-size: 22px;">2.5 The Bigger Picture</strong><br>
                     These strategies work best when combined. A thinned forest (Strategy 1) gives early warning (Strategy 2), while buildings with wind awareness (Strategy 3) protect the most important thing - the living community. This is not about eliminating fires - which is impossible - but about creating a landscape where fires are small and sustainable.</p>
                 </div>
                 
                 <div style="background: linear-gradient(to right, rgba(1, 210, 98, 0.1), rgba(1, 210, 98, 0.05)); padding: 30px; border-radius: 15px; margin-bottom: 20px; box-shadow: 0 5px 20px rgba(0,0,0,0.05);">
-                    <h3 style="color: #01d262; font-size: 28px; border-bottom: 2px solid #01d262; display: inline-block; padding-bottom: 5px; margin-bottom: 20px;">Community Prevention Measures 🏠</h3>
+                    <h3 style="color: #01d262; font-size: 34px; border-bottom: 2px solid #01d262; display: inline-block; padding-bottom: 5px; margin-bottom: 20px;">Community Prevention Measures 🏠</h3>
                     
                     <!-- Enhanced image display for Community Prevention Measures -->
                     <div style="text-align: center; margin-bottom: 30px;">
                         <div style="display: inline-block; max-width: 80%; position: relative; overflow: hidden;">
                             <img src="img/prevention2.pic.jpg" alt="Community prevention efforts" style="width: 100%; height: auto; display: block; border-radius: 15px; box-shadow: 0 12px 30px rgba(0,0,0,0.2); border: 5px solid white;">
                         </div>
-                        <p style="font-size: 16px; color: #555; margin-top: 12px; font-style: italic;">Community-based initiatives are essential for effective wildfire prevention</p>
+                        <p style="font-size: 17px; color: #555; margin-top: 12px; font-style: italic;">Community-based initiatives are essential for effective wildfire prevention</p>
                     </div>
                     
                     <div style="margin-bottom: 25px;">
-                        <p style="font-size: 18px; line-height: 1.6;"><strong>Community-Based Prevention Initiatives</strong><br>
+                        <p style="font-size: 20px; line-height: 1.7;"><strong style="font-size: 22px;">Community-Based Prevention Initiatives</strong><br>
                         Effective wildfire prevention extends beyond individual actions to community-wide efforts. These initiatives build both physical defenses and social connections that prove invaluable during emergencies.</p>
                     </div>
                     
                     <div style="margin-left: 15px; margin-bottom: 25px;">
-                        <p style="font-size: 18px; line-height: 1.6; margin-bottom: 10px;"><strong>• Neighborhood Cleanup Saturdays</strong><br>
+                        <p style="font-size: 20px; line-height: 1.7; margin-bottom: 15px;"><strong style="font-size: 22px;"> Neighborhood Cleanup Saturdays</strong><br>
                         Actively participate in your local neighborhood organization 'Fire Preparedness Saturday' every month. Every time you rotate the house - bring your own gardening gloves and pruning shears. Turn it into a social event: 9 am to 1 pm for clearing dead vegetation from high-risk areas, then 1-3 PM: Group lunch/BBQ. Great chance to discuss wildfire safety knowledge.</p>
                         
-                        <p style="font-size: 18px; line-height: 1.6; margin-bottom: 10px;"><strong>• Schoolyard Fuel Reduction</strong><br>
+                        <p style="font-size: 20px; line-height: 1.7; margin-bottom: 15px;"><strong style="font-size: 22px;"> Schoolyard Fuel Reduction</strong><br>
                         Partner with local schools to create kid-friendly fire breaks - students use class projects to plant flower beds (such as using fire-resistant plants to spell out the school name). Science class measures the thickness of combustible material accumulation on campus and submits the data to the fire department.</p>
                         
-                        <p style="font-size: 18px; line-height: 1.6; margin-bottom: 10px;"><strong>• Coffee Shop Preparedness Hubs</strong><br>
+                        <p style="font-size: 20px; line-height: 1.7; margin-bottom: 15px;"><strong style="font-size: 22px;"> Coffee Shop Preparedness Hubs</strong><br>
                         Turn local cafés into micro-training centers: coffee cup overprinted QR code, scan the code to watch 5-minute escape route planning tutorial. Free seminar on "Espresso Evacuation Drills" every Wednesday at 10am. Points reward: Exchange photos of dead branches cleared by yourself for free refills.</p>
                         
-                        <p style="font-size: 18px; line-height: 1.6; margin-bottom: 10px;"><strong>• Senior Support Networks</strong><br>
+                        <p style="font-size: 20px; line-height: 1.7; margin-bottom: 15px;"><strong style="font-size: 22px;"> Senior Support Networks</strong><br>
                         Mobilize youth groups to assist vulnerable neighbors: middle school students help the elderly clean up potential fuel sources (assign GoPro to record the process as community service credits). Create a graphic and textual version of the 'Disaster Prevention Checklist for the Elderly', with enlarged font and icon-based instructions for those with vision issues.</p>
                     </div>
                 </div>
             </div>
             
-            <p style="font-size: 12px; color: #777; margin-top: 15px; font-style: italic; text-align: center; max-width: 1200px; margin-left: auto; margin-right: auto;">
+            <p style="font-size: 14px; color: #777; margin-top: 20px; font-style: italic; text-align: center; max-width: 1200px; margin-left: auto; margin-right: auto;">
                 <br>
                 Brandon, B. (2023). The strong, dry winds of central and northern California: Climatology and synoptic evolution. Journal of Applied Meteorology, 61(4), 412-428.<br>
                 Bleiman, B. (2023). Refining fire–climate relationship methodologies: Southern California. Fire Ecology, 19(1), 12.<br>
@@ -581,54 +583,54 @@
 
         <section id="safety">
             <h2>Safety Tips</h2>
-            <p style="text-align: center; font-size: 24px; font-weight: 700; font-family: 'Georgia', serif; margin-bottom: 30px; color: #333;">
+            <p style="text-align: center; font-size: 26px; font-weight: 700; font-family: 'Georgia', serif; margin-bottom: 30px; color: #333;">
                 Preparing for the Unexpected: Survival Strategies for Wildfire Events
             </p>
             <div class="content">
-                <div class="card">
-                    <h3>Human Adaptation During Wildfires 🌳</h3>
-                    <div class="image-placeholder">
-                        <img src="img/car.jpg" alt="Person responding to wildfire">
+                <div class="card" style="max-width: 1000px; padding: 40px; margin-bottom: 40px;">
+                    <h3 style="font-size: 32px; margin-bottom: 25px; color: #089549; font-weight: 800; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">Human Adaptation During Wildfires 🌳</h3>
+                    <div class="image-placeholder" style="margin-bottom: 30px;">
+                        <img src="img/car.jpg" alt="Person responding to wildfire" style="width: 100%; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
                     </div>
-                    <p>Humans have great ability to adapt to the changing circumstances in the environment, including life extreme events during wildfires. In a wildfire, we are probably first alerted by seeing the smokes and flames at a distance. As the fire spreads closer to us, we gradually start smelling the smokes and seeing the flame approaching rapidly, exponentially increasing our sensitivity and reactivity to it – we instinctively feel that we are in danger and escape. These stimuli that represent the changing circumstances in the environment evoke "internal states" in the brain, such as fear and arousal. These "internal states" have great influence on how people behave and make decisions. In this case, to just name a few, how to best evacuate, what to bring with during evacuation, what about the pets, and how to keep the property safe after the evacuation? While thinking about how to react during wildfires, being alerted to escape comes with a cost – the fear and arousal that we feel are our opponent to optimize these decisions. It is extremely difficult to make the best decision within such a short amount of time under such circumstances, not even mention to execute them right. Therefore, to best help you, your family, and your properties to stay safe during and survive during wildfires, it is necessary to think about how to react before the fire occurs and prepare accordingly. Here, I am providing specific measures to be taken before the fire occurs and during the fire.</p>
+                    <p style="font-size: 20px; line-height: 1.8; margin-bottom: 20px;">Humans have great ability to adapt to the changing circumstances in the environment, including life extreme events during wildfires. In a wildfire, we are probably first alerted by seeing the smokes and flames at a distance. As the fire spreads closer to us, we gradually start smelling the smokes and seeing the flame approaching rapidly, exponentially increasing our sensitivity and reactivity to it – we instinctively feel that we are in danger and escape. These stimuli that represent the changing circumstances in the environment evoke "internal states" in the brain, such as fear and arousal. These "internal states" have great influence on how people behave and make decisions. In this case, to just name a few, how to best evacuate, what to bring with during evacuation, what about the pets, and how to keep the property safe after the evacuation? While thinking about how to react during wildfires, being alerted to escape comes with a cost – the fear and arousal that we feel are our opponent to optimize these decisions. It is extremely difficult to make the best decision within such a short amount of time under such circumstances, not even mention to execute them right. Therefore, to best help you, your family, and your properties to stay safe during and survive during wildfires, it is necessary to think about how to react before the fire occurs and prepare accordingly. Here, I am providing specific measures to be taken before the fire occurs and during the fire.</p>
                 </div>
 
-                <div class="card">
-                    <h3>Before the Fire Occurs ⏱️ </h3>
-                    <div class="image-placeholder">
-                        <img src="img/helicopter.jpg" alt="Emergency preparation">
+                <div class="card" style="max-width: 1000px; padding: 40px; margin-bottom: 40px;">
+                    <h3 style="font-size: 32px; margin-bottom: 25px; color: #089549; font-weight: 800; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">Before the Fire Occurs ⏱️ </h3>
+                    <div class="image-placeholder" style="margin-bottom: 30px;">
+                        <img src="img/helicopter.jpg" alt="Emergency preparation" style="width: 100%; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
                     </div>
-                    <p><strong>Start reacting ASAP even if there is just a precautionary alert - wildfires rapidly change direction and spread much faster than you can run.</strong></p>
-                    <ol style="margin-left: 20px;">
-                        <li>Sign up for local wildfire warning system alert and/or public warning systems (including The Emergency Alert System and the National Oceanic and Atmospheric Administration Weather Radio).</li>
-                        <li>Make an emergency plan for your family: at least 2 evacuation routes, customize the go-kit for everyone in the family (including pets), a meeting location for unexpected evacuation.</li>
-                        <li>Go-kits – include N95 masks, nonperishable food, water, necessary medications, maps for evacuation routes, first-aid kit, flashlight with extra batteries, personal necessities (eyewear, cell phone, chargers, etc.), important documents (ID, passports, etc.), credit cards & cash, pet food. Add to this list on an individual basis.</li>
-                        <li>Protect your property: keep all windows and doors closed (minimize air filtering in from the outside), use portable air purifiers, connect water hoses.</li>
+                    <p style="font-size: 22px; line-height: 1.8; font-weight: 600; margin-bottom: 25px; color: #333;">Start reacting ASAP even if there is just a precautionary alert - wildfires rapidly change direction and spread much faster than you can run.</p>
+                    <ol style="margin-left: 30px; font-size: 20px; line-height: 1.8;">
+                        <li style="margin-bottom: 15px;">Sign up for local wildfire warning system alert and/or public warning systems (including The Emergency Alert System and the National Oceanic and Atmospheric Administration Weather Radio).</li>
+                        <li style="margin-bottom: 15px;">Make an emergency plan for your family: at least 2 evacuation routes, customize the go-kit for everyone in the family (including pets), a meeting location for unexpected evacuation.</li>
+                        <li style="margin-bottom: 15px;">Go-kits – include N95 masks, nonperishable food, water, necessary medications, maps for evacuation routes, first-aid kit, flashlight with extra batteries, personal necessities (eyewear, cell phone, chargers, etc.), important documents (ID, passports, etc.), credit cards & cash, pet food. Add to this list on an individual basis.</li>
+                        <li style="margin-bottom: 15px;">Protect your property: keep all windows and doors closed (minimize air filtering in from the outside), use portable air purifiers, connect water hoses.</li>
                     </ol>
                 </div>
 
-                <div class="card">
-                    <h3>During the Fire 🚨 </h3>
-                    <p><strong>Core Idea:</strong></p>
-                    <ul style="margin-left: 20px;">
-                        <li>If you have prepared accordingly, either based on the above suggestions or other sources, leave immediately according to your preparation.</li>
-                        <li>If you have not prepared, do not "prepare" or pack up any valuable belongings but leave immediately.</li>
+                <div class="card" style="max-width: 1000px; padding: 40px; margin-bottom: 40px;">
+                    <h3 style="font-size: 32px; margin-bottom: 25px; color: #089549; font-weight: 800; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">During the Fire 🚨 </h3>
+                    <p style="font-size: 22px; line-height: 1.8; font-weight: 600; margin-bottom: 25px; color: #333;">Core Idea:</p>
+                    <ul style="margin-left: 30px; font-size: 20px; line-height: 1.8;">
+                        <li style="margin-bottom: 15px;">If you have prepared accordingly, either based on the above suggestions or other sources, leave immediately according to your preparation.</li>
+                        <li style="margin-bottom: 15px;">If you have not prepared, do not "prepare" or pack up any valuable belongings but leave immediately.</li>
                     </ul>
-                    <p><strong>Reactive Measures:</strong></p>
-                    <ol style="margin-left: 20px;">
-                        <li>Wear a N95 mask properly (instruction attached).</li>
-                        <li>Gather everyone in the family to evacuate or announce evacuation to make sure everyone starts reacting accordingly to the plan.</li>
-                        <li>If evacuate with a vehicle, close all car windows & turn on air recirculation.</li>
-                        <li>Close the door after leaving the property (close all other doors and windows if time permits).</li>
+                    <p style="font-size: 22px; line-height: 1.8; font-weight: 600; margin-top: 30px; margin-bottom: 25px; color: #333;">Reactive Measures:</p>
+                    <ol style="margin-left: 30px; font-size: 20px; line-height: 1.8;">
+                        <li style="margin-bottom: 15px;">Wear a N95 mask properly (instruction attached).</li>
+                        <li style="margin-bottom: 15px;">Gather everyone in the family to evacuate or announce evacuation to make sure everyone starts reacting accordingly to the plan.</li>
+                        <li style="margin-bottom: 15px;">If evacuate with a vehicle, close all car windows & turn on air recirculation.</li>
+                        <li style="margin-bottom: 15px;">Close the door after leaving the property (close all other doors and windows if time permits).</li>
                     </ol>
-                    <div class="image-placeholder" style="max-width: 600px; margin: 20px auto; text-align: center;">
-                        <img src="img/prevention mask.png" alt="N95 mask proper usage instructions" style="width: 100%; height: auto; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border-radius: 8px;">
-                        <p style="font-size: 14px; color: #666; margin-top: 8px; font-style: italic;">Proper N95 mask usage instructions</p>
+                    <div class="image-placeholder" style="max-width: 700px; margin: 30px auto; text-align: center;">
+                        <img src="img/prevention mask.png" alt="N95 mask proper usage instructions" style="width: 100%; height: auto; box-shadow: 0 10px 25px rgba(0,0,0,0.15); border-radius: 12px;">
+                        <p style="font-size: 18px; color: #666; margin-top: 15px; font-style: italic;">Proper N95 mask usage instructions</p>
                     </div>
                 </div>
             </div>
             
-            <p style="font-size: 12px; color: #777; margin-top: 15px; font-style: italic; text-align: center; max-width: 1200px; margin-left: auto; margin-right: auto; border-top: 1px dashed #ccc; padding-top: 15px;">
+            <p style="font-size: 14px; color: #777; margin-top: 25px; font-style: italic; text-align: center; max-width: 1200px; margin-left: auto; margin-right: auto; border-top: 1px dashed #ccc; padding-top: 20px;">
                 <br>
                 United States Department of Agriculture. (n.d.). "A guide to staying safe during wildfires." USDA Climate Hubs. Retrieved March 19, 2025.<br>
                 Flavell, S. W., Pokala, N., Macosko, E. Z., Albrecht, D. R., Larsch, J., & Bargmann, C. I. (2022). "The emergence and influence of internal states."<br>
@@ -641,7 +643,7 @@
 
         <section id="stories">
             <h2>Inspirational Stories</h2>
-            <p style="text-align: center; font-size: 20px; font-weight: 700; font-family: 'Georgia', serif; margin-bottom: 30px; color: #333;">
+            <p style="text-align: center; font-size: 26px; font-weight: 700; font-family: 'Georgia', serif; margin-bottom: 30px; color: #333;">
                 Finding HOPE Amid the Ashes: Stories of Resilience and Community
             </p>
             <div class="content">
@@ -652,13 +654,13 @@
                         <img src="img/Community Resilience in Altadena.jpg" alt="Altadena community support" style="width: 100%; height: 100%; object-fit: cover; object-position: center; transition: transform 0.5s ease;">
                         <!-- Overlay gradient for text readability -->
                         <div style="position: absolute; bottom: 0; left: 0; width: 100%; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 30px 20px 15px;">
-                            <h3 style="color: white; font-size: 28px; margin: 0; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);">Altadena's Mutual Aid</h3>
+                            <h3 style="color: white; font-size: 32px; margin: 0; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);">Altadena's Mutual Aid</h3>
                         </div>
                     </div>
                     <!-- Content section -->
                     <div style="padding: 25px 30px;">
-                        <p style="font-size: 17px; line-height: 1.7;">In the historically Black community of Altadena, residents faced significant challenges as their neighborhood was ravaged by fires. Despite the devastation, community members like High redirected their efforts toward mutual aid. Her bookstore became a center for distributing essential items, and similar stations emerged across the area. This community-driven response highlighted the resilience and solidarity among residents, with High stating, "Nobody is coming to rescue us. We must support one another".</p>
-                        <p style="font-size: 12px; color: #777; margin-top: 15px; font-style: italic; border-top: 1px solid #eee; padding-top: 15px;">Deng, Jireh. 2025. "Black Altadenans Seek Hope and Resilience in the Wake of the LA Wildfires." NPR. February 8, 2025.</p>
+                        <p style="font-size: 20px; line-height: 1.7; margin-bottom: 20px;">In the historically Black community of Altadena, residents faced significant challenges as their neighborhood was ravaged by fires. Despite the devastation, community members like High redirected their efforts toward mutual aid. Her bookstore became a center for distributing essential items, and similar stations emerged across the area. This community-driven response highlighted the resilience and solidarity among residents, with High stating, "Nobody is coming to rescue us. We must support one another".</p>
+                        <p style="font-size: 14px; color: #777; margin-top: 15px; font-style: italic; border-top: 1px solid #eee; padding-top: 15px;">Deng, Jireh. 2025. "Black Altadenans Seek Hope and Resilience in the Wake of the LA Wildfires." NPR. February 8, 2025.</p>
                     </div>
                 </div>
 
@@ -669,13 +671,13 @@
                         <img src="img/Volunteers Bring Hope.jpg" alt="Volunteers helping wildfire victims" style="width: 100%; height: 100%; object-fit: cover; object-position: center; transition: transform 0.5s ease;">
                         <!-- Overlay gradient for text readability -->
                         <div style="position: absolute; bottom: 0; left: 0; width: 100%; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 30px 20px 15px;">
-                            <h3 style="color: white; font-size: 28px; margin: 0; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);">Treasures in the Ashes</h3>
+                            <h3 style="color: white; font-size: 32px; margin: 0; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);">Treasures in the Ashes</h3>
                         </div>
                     </div>
                     <!-- Content section -->
                     <div style="padding: 25px 30px;">
-                        <p style="font-size: 17px; line-height: 1.7;">Jaime and Debbie lost their home in the wildfires, but their story took a hopeful turn when they connected with Samaritan's Purse volunteers. These volunteers helped them find cherished family heirlooms, including a treasured blue topaz stone, despite the intense heat altering its color. This act of kindness brought joy and a sense of God's presence to the family, reminding them of what truly matters—family and community.</p>
-                        <p style="font-size: 12px; color: #777; margin-top: 15px; font-style: italic; border-top: 1px solid #eee; padding-top: 15px;">"Wildfire Victims in California Experience Hope." 2025. Samaritan's Purse. 2025.</p>
+                        <p style="font-size: 20px; line-height: 1.7; margin-bottom: 20px;">Jaime and Debbie lost their home in the wildfires, but their story took a hopeful turn when they connected with Samaritan's Purse volunteers. These volunteers helped them find cherished family heirlooms, including a treasured blue topaz stone, despite the intense heat altering its color. This act of kindness brought joy and a sense of God's presence to the family, reminding them of what truly matters—family and community.</p>
+                        <p style="font-size: 14px; color: #777; margin-top: 15px; font-style: italic; border-top: 1px solid #eee; padding-top: 15px;">"Wildfire Victims in California Experience Hope." 2025. Samaritan's Purse. 2025.</p>
                     </div>
                 </div>
 
@@ -686,13 +688,13 @@
                         <img src="img/Saving the Horses.jpg" alt="Rescued horses from wildfire" style="width: 100%; height: 100%; object-fit: cover; object-position: center; transition: transform 0.5s ease;">
                         <!-- Overlay gradient for text readability -->
                         <div style="position: absolute; bottom: 0; left: 0; width: 100%; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 30px 20px 15px;">
-                            <h3 style="color: white; font-size: 28px; margin: 0; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);">Horses Find Refuge</h3>
+                            <h3 style="color: white; font-size: 32px; margin: 0; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);">Horses Find Refuge</h3>
                         </div>
                     </div>
                     <!-- Content section -->
                     <div style="padding: 25px 30px;">
-                        <p style="font-size: 17px; line-height: 1.7;">During the January 2025 Eaton Fire in Altadena, the Los Angeles Equestrian Center in Burbank became a haven for displaced livestock. The Telleria-Ruiz family transported nearly 30 therapy horses to the center, while Sharon Lewis and Alex Chasen evacuated 54 horses from threatened areas, including those from a riding school whose stables were destroyed. Their heroic efforts underscored the broader impact of wildfires on both humans and animals, demonstrating the community's commitment to protecting all lives during crisis.</p>
-                        <p style="font-size: 12px; color: #777; margin-top: 15px; font-style: italic; border-top: 1px solid #eee; padding-top: 15px;">Quintero, Jose. 2025. "California Wildfire Evacuees Share Wrenching Stories of Heartbreak, Hope." Victorville Daily Press. January 10, 2025.</p>
+                        <p style="font-size: 20px; line-height: 1.7; margin-bottom: 20px;">During the January 2025 Eaton Fire in Altadena, the Los Angeles Equestrian Center in Burbank became a haven for displaced livestock. The Telleria-Ruiz family transported nearly 30 therapy horses to the center, while Sharon Lewis and Alex Chasen evacuated 54 horses from threatened areas, including those from a riding school whose stables were destroyed. Their heroic efforts underscored the broader impact of wildfires on both humans and animals, demonstrating the community's commitment to protecting all lives during crisis.</p>
+                        <p style="font-size: 14px; color: #777; margin-top: 15px; font-style: italic; border-top: 1px solid #eee; padding-top: 15px;">Quintero, Jose. 2025. "California Wildfire Evacuees Share Wrenching Stories of Heartbreak, Hope." Victorville Daily Press. January 10, 2025.</p>
                     </div>
                 </div>
             </div>
@@ -702,46 +704,48 @@
             <h2>Information Resources & Special Thanks</h2>
             <div class="content">
                 <div class="card" style="width: 100%; border-radius: 15px; box-shadow: 0 10px 30px rgba(1, 210, 98, 0.15); padding: 30px; background: linear-gradient(145deg, #ffffff, #f8fff8);">
-                    <h3 style="font-size: 28px; color: #01d262; margin-bottom: 25px; border-bottom: 2px solid #01d262; padding-bottom: 10px; display: inline-block;"> Useful links 📚</h3>
+                    <h3 style="font-size: 36px; color: #01d262; margin-bottom: 25px; border-bottom: 3px solid #01d262; padding-bottom: 12px; display: inline-block;"> Resources & Connections 📚</h3>
                     
                     <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 20px;">
-                        <div style="flex-basis: 100%; margin-bottom: 25px; background-color: rgba(1, 210, 98, 0.05); padding: 15px; border-radius: 10px; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 15px 30px rgba(1, 210, 98, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
-                            <h4 style="margin-top: 0; color: #3c354e;"><i class="fas fa-fire" style="color: #01d262; margin-right: 10px;"></i>CAL FIRE</h4>
-                            <p style="margin-bottom: 10px; color: #666;">Official website for California wildfire updates and resources.</p>
-                            <a href="https://www.fire.ca.gov/" style="color: #01d262; text-decoration: none; font-weight: 500; display: inline-block; border-bottom: 1px solid #01d262;">Visit Website →</a>
+                        <div style="flex-basis: 100%; margin-bottom: 25px; background-color: rgba(1, 210, 98, 0.05); padding: 20px; border-radius: 10px; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 15px 30px rgba(1, 210, 98, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                            <h4 style="margin-top: 0; color: #3c354e; font-size: 24px;"><i class="fas fa-fire" style="color: #01d262; margin-right: 10px;"></i>CAL FIRE</h4>
+                            <p style="margin-bottom: 15px; color: #666; font-size: 18px; line-height: 1.6;">Official website for California wildfire updates and resources.</p>
+                            <a href="https://www.fire.ca.gov/" style="color: #01d262; text-decoration: none; font-weight: 500; font-size: 18px; display: inline-block; border-bottom: 1px solid #01d262;">Visit Website →</a>
                         </div>
                         
-                        <div style="flex-basis: 100%; margin-bottom: 25px; background-color: rgba(1, 210, 98, 0.05); padding: 15px; border-radius: 10px; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 15px 30px rgba(1, 210, 98, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
-                            <h4 style="margin-top: 0; color: #3c354e;"><i class="fas fa-globe" style="color: #01d262; margin-right: 10px;"></i>National Interagency Fire Center</h4>
-                            <p style="margin-bottom: 10px; color: #666;">Comprehensive wildfire information and statistics.</p>
-                            <a href="https://www.nifc.gov/" style="color: #01d262; text-decoration: none; font-weight: 500; display: inline-block; border-bottom: 1px solid #01d262;">Visit Website →</a>
+                        <div style="flex-basis: 100%; margin-bottom: 25px; background-color: rgba(1, 210, 98, 0.05); padding: 20px; border-radius: 10px; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 15px 30px rgba(1, 210, 98, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                            <h4 style="margin-top: 0; color: #3c354e; font-size: 24px;"><i class="fas fa-globe" style="color: #01d262; margin-right: 10px;"></i>National Interagency Fire Center</h4>
+                            <p style="margin-bottom: 15px; color: #666; font-size: 18px; line-height: 1.6;">Comprehensive wildfire information and statistics.</p>
+                            <a href="https://www.nifc.gov/" style="color: #01d262; text-decoration: none; font-weight: 500; font-size: 18px; display: inline-block; border-bottom: 1px solid #01d262;">Visit Website →</a>
                         </div>
                         
-                        <div style="flex-basis: 100%; margin-bottom: 25px; background-color: rgba(1, 210, 98, 0.05); padding: 15px; border-radius: 10px; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 15px 30px rgba(1, 210, 98, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
-                            <h4 style="margin-top: 0; color: #3c354e;"><i class="fas fa-first-aid" style="color: #01d262; margin-right: 10px;"></i>American Red Cross</h4>
-                            <p style="margin-bottom: 10px; color: #666;">Disaster relief and support for wildfire victims.</p>
-                            <a href="https://www.redcross.org/" style="color: #01d262; text-decoration: none; font-weight: 500; display: inline-block; border-bottom: 1px solid #01d262;">Visit Website →</a>
+                        <div style="flex-basis: 100%; margin-bottom: 25px; background-color: rgba(1, 210, 98, 0.05); padding: 20px; border-radius: 10px; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 15px 30px rgba(1, 210, 98, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                            <h4 style="margin-top: 0; color: #3c354e; font-size: 24px;"><i class="fas fa-first-aid" style="color: #01d262; margin-right: 10px;"></i>American Red Cross</h4>
+                            <p style="margin-bottom: 15px; color: #666; font-size: 18px; line-height: 1.6;">Disaster relief and support for wildfire victims.</p>
+                            <a href="https://www.redcross.org/" style="color: #01d262; text-decoration: none; font-weight: 500; font-size: 18px; display: inline-block; border-bottom: 1px solid #01d262;">Visit Website →</a>
                         </div>
                         
-                        <div style="flex-basis: 100%; margin-bottom: 25px; background-color: rgba(1, 210, 98, 0.05); padding: 15px; border-radius: 10px; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 15px 30px rgba(1, 210, 98, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
-                            <h4 style="margin-top: 0; color: #3c354e;"><i class="fas fa-shield-alt" style="color: #01d262; margin-right: 10px;"></i>Ready for Wildfire</h4>
-                            <p style="margin-bottom: 10px; color: #666;">Tips and tools for wildfire preparedness.</p>
-                            <a href="https://www.readyforwildfire.org/" style="color: #01d262; text-decoration: none; font-weight: 500; display: inline-block; border-bottom: 1px solid #01d262;">Visit Website →</a>
+                        <div style="flex-basis: 100%; margin-bottom: 25px; background-color: rgba(1, 210, 98, 0.05); padding: 20px; border-radius: 10px; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 15px 30px rgba(1, 210, 98, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                            <h4 style="margin-top: 0; color: #3c354e; font-size: 24px;"><i class="fas fa-shield-alt" style="color: #01d262; margin-right: 10px;"></i>Ready for Wildfire</h4>
+                            <p style="margin-bottom: 15px; color: #666; font-size: 18px; line-height: 1.6;">Tips and tools for wildfire preparedness.</p>
+                            <a href="https://www.readyforwildfire.org/" style="color: #01d262; text-decoration: none; font-weight: 500; font-size: 18px; display: inline-block; border-bottom: 1px solid #01d262;">Visit Website →</a>
                         </div>
                         
-                        <div style="flex-basis: 100%; margin-bottom: 25px; background-color: rgba(1, 210, 98, 0.05); padding: 15px; border-radius: 10px; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 15px 30px rgba(1, 210, 98, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
-                            <h4 style="margin-top: 0; color: #3c354e;"><i class="fas fa-building" style="color: #01d262; margin-right: 10px;"></i>FEMA</h4>
-                            <p style="margin-bottom: 10px; color: #666;">Federal assistance and recovery resources for wildfire-affected areas.</p>
-                            <a href="https://www.fema.gov/" style="color: #01d262; text-decoration: none; font-weight: 500; display: inline-block; border-bottom: 1px solid #01d262;">Visit Website →</a>
+                        <div style="flex-basis: 100%; margin-bottom: 25px; background-color: rgba(1, 210, 98, 0.05); padding: 20px; border-radius: 10px; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 15px 30px rgba(1, 210, 98, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                            <h4 style="margin-top: 0; color: #3c354e; font-size: 24px;"><i class="fas fa-building" style="color: #01d262; margin-right: 10px;"></i>FEMA</h4>
+                            <p style="margin-bottom: 15px; color: #666; font-size: 18px; line-height: 1.6;">Federal assistance and recovery resources for wildfire-affected areas.</p>
+                            <a href="https://www.fema.gov/" style="color: #01d262; text-decoration: none; font-weight: 500; font-size: 18px; display: inline-block; border-bottom: 1px solid #01d262;">Visit Website →</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="special-thanks" style="width: 100%; text-align: center; margin-top: 50px;">
-                    <h3 style="font-size: 28px; color: #3c354e; margin-bottom: 10px;">Special Thanks</h3>
-                    <p style="font-size: 24px; color: #666; font-style: italic;">We extend our gratitude to UCSD Synthesis program, especially our instructor Emily Browne.</p>
-                    <p style="font-size: 24px; color: #666; font-style: italic;"> 🌟 🔥 🌲 💚 🌱</p>
-
+                <div class="special-thanks" style="width: 100%; text-align: center; margin-top: 70px; padding: 40px 30px; background: linear-gradient(145deg, #f8fff8, #ffffff); border-radius: 20px; box-shadow: 0 10px 30px rgba(1, 210, 98, 0.1); border: 2px dashed rgba(1, 210, 98, 0.3); position: relative;">
+                    <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background-color: #fff; padding: 0 20px;">
+                        <span style="font-size: 28px; color: #01d262;">✦ ✦ ✦</span>
+                    </div>
+                    <h3 style="font-size: 42px; color: #01d262; margin-bottom: 25px; font-weight: 700; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">Special Thanks</h3>
+                    <p style="font-size: 26px; color: #555; font-style: italic; line-height: 1.6; margin-bottom: 20px;">We extend our gratitude to UCSD Synthesis program, especially our instructor Emily Browne.</p>
+                    <p style="font-size: 28px; color: #01d262; font-style: italic; margin-top: 20px;"> 🌟 🔥 🌲 💚 🌱</p>
                 </div>
             </div>
         </section>
